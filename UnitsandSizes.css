@@ -1,0 +1,60 @@
+* {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+html {
+    background: #CCC5B9;
+}
+
+body {
+    min-height: 150vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    color: #000000;
+}
+
+h1 {
+    padding: 10px;
+    border-style: inset;
+    border-color: black;
+    text-align: center;
+}
+
+table, th, td { 
+    border: 2px solid #CCC5B9;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    background-color: #FFFCF2;
+}
+
+hr.new1 {
+    border-top: 3px;
+}
+
+p.Tip {
+    min-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #C7CEDB;
+}
+
+a:link {
+    color: #EB5E28;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover, a:active {
+    color: #A0AAB2;
+}

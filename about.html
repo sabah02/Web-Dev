@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sabah Shaikh">
+    <meta name="description" content="This page contains all the things I am learning how to create
+    as I learn html.">
+    <title>KnowHow HTML</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <h1>ABOUT</h1>
+    <h2>HTML</h2>
+    <p>HTML is a language used to create webpages.<br>
+    It is an acronym for <strong>Hyper Text MarkUp Language</strong><br>
+    This language uses <em>TAGS</em> or <em>ELEMENTS</em></p>
+    <p>The list of Tags and there uses are as follows:</p>
+
+    <hr>
+        
+    <h3>&lt; ! - - - - &gt;</h3>
+    <p>This is used for comments</p>
+
+    <hr>
+
+
+    <h3>head</h3>
+    <p>Head contains information about the web page.</p>
+        <dl>
+            <dt><strong>Title</strong></dt>
+            <dd>Title is not visible inside the web page but at<br>
+                the top Window</dd>
+            <dt><strong>meta</strong></dt>
+            <dd>The meta tag defines metadata about an HTML document.<br>
+                <strong>meta</strong> is data (information) about data.
+                <strong>meta</strong> tags always <br>go inside the 
+                <strong>head</strong> element, and are typically used to specify 
+                character set,<br> page description, keywords, author of the document, 
+                and viewport settings.<br> Metadata will not be displayed on the page, 
+                but is machine parsable.<br>Metadata is used by browsers (how to display 
+                content or reload page), <br>search engines (keywords), and other web services.
+                There is a method to let <br>web designers take control over the viewport 
+                (the user's visible area of a web page).
+            </dd>
+        </dl>
+     
+    <hr>
+
+    <h3>body:</h3>
+    <p>It contains all the things which are visible to the client.</p>
+    <dl>
+        <dt><strong>h1,h2,h3,h4,h5 Tag</strong></dt>
+        <dd>These are tags for headings.The Font Size Decreases with Increase in the Heading tag Number.<br>
+        <h1>This is Heading 1</h1><br><h2>This is Heading 2</h2><br><h3>This is Heading 3</h3><br>
+        <h4>This is Heading 4</h4><br><h5>This is Heading 5</h5></dd>
+
+        <dt>Paragraph Tag <em>pl</em></dt>
+        <dd>This contains string.</dd>
+        
+
+        <dt>Break Tag <em>br</em> </dt>
+        <dd>This is used to <br> break a line in paragraph tag </dd>
+        
+        <dt>Unordered List Tag<em>ul</em>
+            
+            <dd>Unordered list contains Bullets<br>
+            <em>li Tag</em> i.e. list item lists different items of list in a new line.
+            </dd>
+
+        <dt>Ordered List Tag<em>ol</em></dt>
+     
+           <dd>Ordered list contains Numberings.<br>
+            ><em>li Tag</em> lists different items of a list in a new line.</dd>
+       
+        
+        <dt>Description List <em>dl</em> contains 2 more tags</dt>
+            <dd>These are Description term Tag and<em>dt</em>
+                Description details Tag <em>dd</em></dd>
+        
+
+        <dt>Horizontal Rule Tag<em>hr</em></dt>
+            <dd>This tag displays a Horizontal line Like in the top</dd>
+            
+
+        <dt>Address Tag <em>address</em></dt>
+            <dd><address>Address tag Dispalys<br>
+            Address Like This</address></dd>
+           
+
+        <dt>Abbreviation Tag <em>abbr</em></dt>
+            <dd>It is used for abbreviations It underlines the content inside the tage with DOTS like This
+            <abbr title = "Integrated Development Environment">IDE</abbr><br>
+            <em>abbr</em> contains an atribute <em>title</em> it's value is full form of the acronym.<br>
+            if you hover over the acronym In this case 
+            <abbr title = "Integrated Development Environment">IDE</abbr> you can see it's full-form</dd>
+            
+
+        <dt>Anchor Tag</dt>
+            <dd>This tag creates a Link<br>
+            <a href="https://open.spotify.com/">Spotify</a>
+            <em>anchor Tag</em> contains an attribute <em>href</em> it's value is the URL of the 
+            link we want<br> to add.In this case we are giving an <strong>absolute</strong> refrence which means<br>
+            the link we are providing does not belong to our server or Environment<br>
+            The other type of refrence is <strong>relative</strong> refrence i.e. the link provided
+            belongs<br> to our server or Environment<br>
+            <strong>//open.spotify.com/</strong> This is an absolute refrence whereas 
+            <strong>htmlpic.jpg</strong> is a relative refrence</dd>
+
+
+        <dt>Entities</dt>
+            <dd>We cannot add characters like space,&lt;,&gt; to our code coz they are<br>
+            already part of our syntax so we use <em>Entities</em> to display them on our page.<br>
+            <a href = "https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references">
+            Here</a> is a list of Entities which are used.</dd>
+    
+    </dl>
+
+    <hr>
+   
+    <h3><strong>There are two types of Elements</strong></h3>
+        <ol>
+            <li>Block Elements</li>
+            <li>In-Line Elements</li>
+        </ol> 
+            <p><em>p,h1,li,dt,dd</em> are Block elements they display a new line whenever they are used</p>
+            <p><em>abbr,a,br,address,em,strong</em> are In-Line elements they don not display a new line<br>
+            whenever they are used</p>
+
+    <ul>
+        <li>Download an <a href="htmlpic.jpg"download>HTMLPIC</a></li>
+        <li>
+            Contact me at <a href="mailto:random@email.com">my email address</a>
+        </li>
+        <li>Dial <a href="tel:+12346786">My phone number</a></li>
+        <li>Open <a href="https://www.google.com/" target="_blank">Google</a> in a new tab</li>
+    </ul>
+
+    <p>
+        <a href="/">Back to Home</a>
+    </p>
+        
+
+    
+</body>
+</html>

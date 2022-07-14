@@ -1,0 +1,80 @@
+p.e1 {
+    border: 2px solid black;
+    padding: 10px;
+}
+p.e2 {
+    border: 2px solid black;
+    padding: 20px;
+}
+p.e3 {
+    border: 2px solid black;
+    padding: 30px;
+}
+p.e4 {
+    border: 2px solid black;
+    padding: 50px;
+}
+p.e5 {
+    border: 2px solid black;
+    padding: 60px;
+}
+p.e6 {
+    border: 2px solid black;
+    padding: 70px;
+}
+p.e7 {
+    border: 2px solid black;
+    padding: 80px;
+}
+p.e8 {
+    border: 2px solid black;
+    padding: 90px;
+}
+p.e9 {
+    border: 2px solid black;
+    padding: 20px 40px;
+}
+p.e10 {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 120px;
+}
+p.e11 {
+    border: 2px solid black;
+    padding: 8em;
+}
+section.sec1 {
+    background-color: #437C90;
+}
+section.sec2 {
+    background-color: #255957;
+}
+section.sec3 {
+    background-color: #EEEBD3;
+}
+section.sec4 {
+    background-color: #A98743;
+}
+section.sec5 {
+    background-color: #F7C548;
+}
+section.sec6 {
+    background-color: #7B5E7B;
+}
+section.sec7 {
+    background-color: #B9F18C;
+}
+section.sec8 {
+    background-color: #437C90;
+}
+section.sec9 {
+    background-color: #374A67;
+}
+section.sec10 {
+    background-color: #616283;
+}
+section.sec11 {
+    background-color: #9E7B9B;
+}
